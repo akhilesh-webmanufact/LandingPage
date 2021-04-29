@@ -1,0 +1,138 @@
+body,
+html {
+  height: 100%;
+}
+
+.bg {
+  background-image: url("/bgImg.jpg");
+  height: 100%;
+  position: absolute;
+  width: 1822px;
+  height: 1000px;
+  left: 0px;
+  top: 0px;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.2;
+}
+
+.logo {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.title {
+  text-align: center;
+}
+
+div.title h1 {
+  color: #3e55a3;
+}
+
+div.title .staytuned {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #000000;
+  padding-bottom: 30px;
+}
+
+.underLine {
+  width: 10%;
+  border: 2px solid #3e55a3;
+}
+
+.inputtext {
+  position: absolute;
+  height: 40px;
+  left: 521px;
+  width: 300px;
+}
+
+#demo {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
+
+.notify-button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 35px;
+  right: 100px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  background-color: #f7a152;
+  border: none;
+  position: relative;
+  left: 131px;
+  bottom: -2px;
+}
+
+.note {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  color: #3e55a3;
+}
+
+/* .countdown {
+  padding-top: 10px;
+} */
+
+div#social-icons {
+  text-align: center;
+}
+
+.fa {
+  /* padding: 20px; */
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+  background: #ffffff;
+}
+
+.fa-facebook {
+  background: #878787;
+  color: white;
+}
+
+.fa-twitter {
+  background: #878787;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #878787;
+  color: white;
+}
+
+.fa-youtube {
+  background: #878787;
+  color: white;
+}
+
+.fa-instagram {
+  background: #878787;
+  color: white;
+}
