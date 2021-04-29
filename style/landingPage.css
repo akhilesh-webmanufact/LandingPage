@@ -4,7 +4,7 @@ html {
 }
 
 .bg {
-  background-image: url("/bgImg.jpg");
+  background-image: url("/images/bgImg.jpg");
   height: 100%;
   position: absolute;
   width: 1822px;
