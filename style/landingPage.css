@@ -4,11 +4,11 @@ html {
 }
 
 .bg {
-  background-image: url("/images/bgImg.jpg");
+  background-color: white;
   height: 100%;
   position: absolute;
-  width: 1822px;
-  height: 1000px;
+  /* width: 1822px;
+  height: 1000px; */
   left: 0px;
   top: 0px;
   /* background-position: center; */
@@ -19,7 +19,12 @@ html {
 
 .logo {
   text-align: center;
-  padding-top: 70px;
+  padding-top: 50px;
+}
+
+.giflogo {
+  width: 700px;
+  height: auto;
 }
 
 .title {
@@ -30,7 +35,7 @@ div.title h1 {
   color: #3e55a3;
 }
 
-div.title .staytuned {
+div.title {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -39,11 +44,11 @@ div.title .staytuned {
   text-align: center;
   letter-spacing: 0.01em;
   color: #000000;
-  padding-bottom: 30px;
+  padding: 70px;
 }
 
 .underLine {
-  width: 10%;
+  width: 30%;
   border: 2px solid #3e55a3;
 }
 
@@ -69,11 +74,14 @@ div.title .staytuned {
   right: 100px;
   letter-spacing: 0.01em;
   text-transform: uppercase;
-  background-color: #f7a152;
+  background-color: #ff0000;
+  color: white;
   border: none;
-  position: relative;
-  left: 131px;
-  bottom: -2px;
+  text-align: center;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
 }
 
 .note {
